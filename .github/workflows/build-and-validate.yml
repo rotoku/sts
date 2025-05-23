@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  # only required for workflows in private repositories
+  actions: read
+  contents: read
+
 jobs:
   compile-java:
     name: Compile Java Project
