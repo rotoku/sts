@@ -2,6 +2,8 @@ package br.com.kumabe.sts.infrastructure.persistence;
 
 import br.com.kumabe.sts.domain.Client;
 import br.com.kumabe.sts.repository.ClientRepository;
+import org.springframework.stereotype.Repository;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;

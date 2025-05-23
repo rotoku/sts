@@ -1,6 +1,7 @@
 package br.com.kumabe.sts;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class StsApplication {

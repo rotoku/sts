@@ -6,7 +6,10 @@ import br.com.kumabe.sts.domain.AccessToken;
 import br.com.kumabe.sts.exception.InvalidClientCredentialsException;
 import br.com.kumabe.sts.repository.ClientRepository;
 import java.util.UUID;
+
+import br.com.kumabe.sts.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 
 @Service
